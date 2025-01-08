@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="public">
+    <title>Prayogam2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="Prayogamlogo.png">
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="navbar">
+            <a href="#home"style="background-color:#c5b264;">Home</a>
+            <a href="#about">About</a>
+            <a href="#speakers">Speakers</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+       <!-- Hamburger Menu Icon (Checkbox Toggle) -->
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+<label for="menu-toggle" class="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+</label>
+
+<!-- Mobile Navigation Menu -->
+   <nav class="mobile-nav">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#speakers" class="nav-link">Speakers</a>
+    <a href="#team" class="nav-link">Team Members</a>
+    <a href="#gallery" class="nav-link">Gallery</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#contact" class="nav-link">Contact</a>
+   </nav>
+</header>
+
+<!---------------------------------------------------------------------------------------------------->
+<!-- Landing Page Section -->
+    <section id="home" class="landing">   
+        <div class="content">        
+            <h1>Prayogam 2025 </h1>
+            <h2>Science Expo</h2>
+
+             <!-- Event Date and Venue -->
+            <div class="event-info">
+                <p>Date: 26 February 2025</p>
+                <p>Venue: Poornima University Campus</p>
+            </div>
+
+
+            <!-- Countdown Timer -->
+            <div class="countdown">
+                <div class="count-item">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div class="count-item">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div class="count-item">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="count-item">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+
+<!----------------------------------------------------------------------------------------------------><button class="register-btn" onclick="openModal()">Register Now</button>
+</div></section>
+    <!-- Modal -->
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <form action="register.php" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="branch">Branch</label>
+                <input type="text" id="branch" name="branch" placeholder="Enter your branch" required>
+
+                <label for="registration_id">Registration Number</label>
+                <input type="text" id="registration_id" name="registration_id" placeholder="Enter your registration number" required>
+
+                <label for="email">Email id</label>
+                <input type="text" id="email" name="email" placeholder="Enter your poornima email" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+<!---------------------------------------------------------------------------------------------------->
+<!--about the fest-->
+<section class="about-section" id="about">
+    <div class="about-content">
+        <h2>About the Fest</h2>
+        <p>
+            The Faculty of Computer Science & Engineering, Poornima University (PU), Jaipur organized the Annual Technical Project Expo “Prayogam-2024” on the occasion of National Science Day. 
+            The exhibition was intended to motivate students to apply the theoretical concepts in the form of projects. More than 1200 students participated in the exhibition and over 220 projects were displayed. Projects were focused on real world problems in the areas of AI, Data Science, Game Technology, IOT, Cyber Security, Web Technologies and Mobile applications.
+        </p>
+    </div>
+    <div class="about-image">
+        <img src="overview-prayogam-img.jpg" alt="image"> 
+    </div>
+</section>
+<!---------------------------------------------------------------------------------------------------->
+ <!-- Speaker Section -->
+<section class="speaker-section" id="speakers">
+    <h2>Our Esteemed Speakers</h2>
+    <p>"Our esteemed speakers are renowned industry leaders, innovators, and experts from diverse fields. They bring a wealth of knowledge, insights, and experience to inspire, educate, and empower our audience. Their contributions will ignite meaningful conversations and spark innovative ideas."</p>
+    <div class="speaker-container">
+        <!-- Speaker Card 1 -->
+        <div class="speaker-card">
+            <div class="speaker-image">
+                <img src="coming soon.png" alt="Speaker 1">
+            </div>
+            <div class="speaker-info">
+                <h3></h3>
+                <p></p>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Speaker Card 2 -->
+        <div class="speaker-card">
+            <div class="speaker-image">
+                 <img src="coming soon.png" alt="Speaker 2">
+            </div>
+            <div class="speaker-info">
+                <h3></h3>
+                <p></p>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Speaker Card 3 -->
+        <div class="speaker-card">
+            <div class="speaker-image">
+                 <img src="coming soon.png" alt="Speaker 3">
+            </div>
+            <div class="speaker-info">
+                <h3></h3>
+                <p></p>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Speaker Card 4 -->
+        <div class="speaker-card">
+            <div class="speaker-image">
+                 <img src="coming soon.png" alt="Speaker 4">
+            </div>
+            <div class="speaker-info">
+                <h3></h3>
+                <p></p>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------------------------------------------->
+<!-- Gallery Section -->
+<section class="gallery-section" id="gallery">
+    <h2>Event Gallery</h2>
+    <div class="gallery-container">
+        <!-- Image Cards -->
+        <div class="gallery-item">
+            <img src="https://res.cloudinary.com/dbyqeneej/image/upload/v1733136556/IMG_7538_1_jthchl.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://res.cloudinary.com/dbyqeneej/image/upload/v1733136940/IMG_7546_k8ucsz.jpg" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://res.cloudinary.com/dbyqeneej/image/upload/v1733136939/IMG_7549_vizmkb.jpg" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="https://res.cloudinary.com/dbyqeneej/image/upload/v1733136942/IMG_7577_h7ntbq.jpg" alt="Gallery Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="https://res.cloudinary.com/dbyqeneej/image/upload/v1733136943/IMG_7707_ydrui3.jpg" alt="Gallery Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="https://res.cloudinary.com/dbyqeneej/image/upload/v1733136945/IMG_7691_r7g71n.jpg" alt="Gallery Image 6">
+        </div>
+        
+    </div>
+
+    <!-- View All Button -->
+    <div class="view-all-container">
+        <a href="https://drive.google.com/drive/folders/15FKND-DzhwJoX1DGAb4c-PZy1GBzxqXm?usp=sharing" class="view-all-btn">View All Images</a>
+    </div>
+</section>
+
+<!---------------------------------------------------------------------------------------------------->
+
+<!-- Projects Section -->
+<section class="projects-section" id="projects">
+    <h2>Tech Innovations</h2>
+    <p>Explore the incredible projects crafted by first-year students over the past three years of our tech fest! </p>
+
+    <div class="projects-container">
+        <!-- Year 2023 Projects -->
+        <div class="project-year">
+            <h3>Prayogam 2023</h3>
+            <p>Discover the groundbreaking projects presented in 2023.</p>
+            <a href="FCE-2024-25.pdf" class="project-link" download>
+                <span class="pdf-icon">📄</span> Download PDF of 2023 Projects
+            </a>
+        </div>
+
+        <!-- Year 2024 Projects -->
+        <div class="project-year">
+            <h3>Prayogam 2024</h3>
+            <p>Explore the innovative projects submitted by students in 2024.</p>
+            <a href="FCE-2024-25.pdf" class="project-link" download>
+                <span class="pdf-icon">📄</span> Download PDF of 2024 Projects
+            </a>
+        </div>
+
+        <!-- Year 2025 Projects -->
+        <div class="project-year">
+            <h3>Prayogam 2025</h3>
+            <p>Get a look at the future of innovation with the 2025 student projects.</p>
+            <a href="FCE-2024-25.pdf" class="project-link" download>
+                <span class="pdf-icon">📄</span> Download PDF of 2025 Projects
+            </a>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------------------------------------------->
+<!-- Main Team Section -->
+<section class="team-section" id="team">
+    <h2>Meet Our Team</h2>
+    <p>Coordinators and members who led this event to success</p>
+
+    <div class="team-slider">
+        <!-- Team Member Card -->
+        <div class="team-card">
+            <img src="president.webp" alt="Member Image">
+             <hr class="separator-line">
+            <h3>Dr. Suresh Chandra Padhy</h3>
+            <p>President<br>Poornima University</p>
+        </div>
+        <div class="team-card">
+            <img src="manoj sir.jpg" alt="Member Image">
+            <hr class="separator-line">
+            <h3>Dr. Manoj Gupta</h3>
+            <p>Pro-President<br>Poornima University</p>
+        </div>
+        <div class="team-card">
+            <img src="pratish sir.JPG" alt="Coordinator Image">
+            <hr class="separator-line">
+            <h3>Mr. Pratish Rawat</h3>
+            <p>HoD<br>Department of first Year FET & FCE </p>
+        </div>
+
+        <div class="team-card">
+            <img src="Ajay sir.JPG" alt="Member Image">
+            <hr class="separator-line">
+            <h3>Mr. Ajay Khunteta</h3>
+            <p>Dean,FCE</p>
+        </div>
+
+        <div class="team-card">
+            <img src="megha mam.jpg" alt="Member Image">
+            <hr class="separator-line">
+            <h3>Mrs. Megha Nain</h3>
+            <p>Project Coordinator</p>
+        </div>
+
+        <div class="team-card">
+            <img src="gurvita mam.jpeg" alt="Member Image">
+            <hr class="separator-line">
+            <h3>Mrs. Gurvita Rai</h3>
+            <p>Project Coordinator</p>
+        </div>
+
+    </div>
+</section>
+ <!---------------------------------------------------------------------------------------------------->
+
+ <!-- Footer Section -->
+ <section id="contact">
+<div class="footer">
+    <!-- Footer Main Content -->
+    <div class="mobile-footer">
+    <div class="content">
+        
+        <!-- Quick Links Section -->
+        <div class="links">
+            <h4>Quick Links</h4>
+            <p><a href="#home">Home</a></p>
+            <p><a href="#about">About</a></p>
+            <p><a href="#speakers">Speakers</a></p>
+            <p><a href="#team">Team Members</a></p>
+            <p><a href="#gallery">Gallery</a></p>
+            <p><a href="#projects">Projects</a></p>
+        </div>
+        <!-- Contact Information Section -->
+        <div class="details">
+            <h4>Contact Us</h4>
+            <p>Poornima University, Jaipur, Rajasthan</p>
+            <p><a href="tel:+911234567890">+91 9826054814</a></p>
+            <p><a href="mailto:info@prayogam.com">pratish.rawat@poornima.edu.in</a></p>
+        </div>
+    </div>
+</div>
+    <!-- Footer Bottom Section -->
+    <footer>
+        <div class="credit">
+            © 2025 PRAYOGAM - 2025. All rights reserved.
+        </div>
+    </footer>
+</div>
+</section>
+        <script src="script.js"></script>
+    </body>
+    </html>
